@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "PPNeueMontreal-Bold";
+  src: url("./PPNeueMontreal-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-Book";
+  src: url("./PPNeueMontreal-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-Italic";
+  src: url("./PPNeueMontreal-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-Medium";
+  src: url("./PPNeueMontreal-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-SemiBolditalic";
+  src: url("./PPNeueMontreal-SemiBolditalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontreal-Thin";
+  src: url("./PPNeueMontreal-Thin.otf") format("opentype");
+}
+
+body {
+  font-family: "PPNeueMontreal-Bold", "PPNeueMontreal-Book",
+    "PPNeueMontreal-Italic", "PPNeueMontreal-Medium",
+    "PPNeueMontreal-SemiBolditalic", "PPNeueMontreal-Thin" sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-weight: 550;
+  font-family: "PPNeueMontreal-Book", sans-serif;
+  font-size: 16px;
+  line-height: 25.6px;
+  
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 400px;
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.webinar {
+    font-size: 14px;
+    background-color: #ef5a3c;
+    border: 0px;
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 160px;
+    font-weight: 550;
+}
